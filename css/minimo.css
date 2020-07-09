@@ -1,0 +1,234 @@
+
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Playfair Display', serif; 
+	color:#626262;
+}
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 25px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto; 
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top: 3px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%
+}
+.menu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 50px; 
+	padding: 10px 0;
+	transition: .9s;
+	border: 1px solid transparent; 
+}
+.menu ul li:last-child a{
+	margin-right: 0px;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+} 
+/*banner end*/
+/*perfect start*/
+.perfect{
+	padding: 60px 0;
+}
+.container2{
+	/*border: 1px solid blue;*/
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.p_wrapper{}
+.c_p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px; 
+	font-weight: 300;
+	font-color: #b4ad9e;
+	text-transform: uppercase;
+}
+.c_h1{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px; 
+	font-weight: 400;
+
+	 
+}
+.c_text{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+/*perfect end*/
+/*blog start*/
+.blog{
+	padding: 60px 0;
+}
+.single{
+	width: 47%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-bottom: 50px;
+}
+.single:nth-child(even){
+	margin-left: 6%;
+}
+.single img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/*blog end*/
+/*newsletter start*/
+.newsletter{
+	padding: 80px 0px;
+	background-color: #f0f0f0;
+	text-align: center;
+}
+.signup{}
+.signup h2{
+	font-size: 32px;
+	margin-bottom: 80px;
+	color: #333333;
+}
+.signup_form{
+	margin: 0 auto;
+	width: 400px;
+	position: relative;
+}
+.signup_form input{
+	font-size: 18px;
+	width: 345px;
+	height: 45px;
+	border: 0;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.signup_form button{
+	position: absolute;
+	bottom: 25%;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	outline: none;
+}
+.signup_form button img{
+
+}
+/*newsletter end*/
+/*blog2 start*/
+.blog2{
+	padding-top: 60px;
+}
+/*blog2 end*/
+/*button start*/
+.load{
+	padding: 100px 0 200px;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: none;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s
+}
+.load button:hover{
+	background-color: #626262;
+	color: white;
+}
+.load button:focus{
+	outline: 0 !important;
+}
+/*button end*/
+/*footer start*/
+footer{
+	padding: 20px 0 35px 0;
+	background-color: #f0f0f0;
+}
+.terms{
+	width: 55%;
+	float: left;
+	margin-top: 10px;
+}
+.terms ul{
+	list-style: none;
+}
+.terms ul li{
+	float:left;
+}
+.terms ul li:first-child{
+	padding-right: 20px;
+}
+.terms ul li a{
+	color: #626262;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	transition: .3s;
+	border: 1px solid transparent; 
+}
+.social{
+	width: 14%;
+	float: right;
+	margin-top: 10px;
+}
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	float: left;
+	padding-left: 20px;
+}
+.social ul li span{
+}
+.social ul li a{
+}
+/*footer end*/
+
+
+
